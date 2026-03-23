@@ -1,6 +1,6 @@
 ---
 name: vector-author
-description: Create or update vector.md files that document directory structure, design intent, and review rules
+description: Create or update vector.md files that document directory structure, design intent, and review rules. Use proactively after completing Plan implementations or other significant code changes to keep vector.md files in sync with reality.
 ---
 
 # vector.md Authoring
@@ -16,7 +16,7 @@ Each `vector.md` serves as the **index of its directory**. It captures *why* the
 - When asked to create a new `vector.md` for a directory
 - When asked to update an existing `vector.md` after code changes
 - When reviewing whether `vector.md` files are accurate and complete
-- After completing implementation work, to reflect on what context was missing and improve the `vector.md`
+- **Proactively after completing a Plan implementation or other significant code changes** — check whether any `vector.md` files in affected directories need updating to reflect what was built, added, or changed. If a directory gained new files, new design constraints, or changed purpose, update its `vector.md` (or create one if it doesn't exist).
 
 ## Format
 
