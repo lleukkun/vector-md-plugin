@@ -1,0 +1,7 @@
+{
+  "name": "vector-md",
+  "version": "1.0.0",
+  "description": "Auto-inject nearest vector.md into context on file reads, with dedup and compaction-aware invalidation.",
+  "hooks": "./hooks/hooks.json",
+  "skills": "./skills/"
+}
